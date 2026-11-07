@@ -5,9 +5,9 @@ Thanks for helping improve Digital Legacy Registry. Contributions should make th
 ## Development
 
 1. Fork the repository and create a focused branch.
-2. Install dependencies with \`npm install\`.
-3. Run \`npm run dev\` while developing.
-4. Run \`npm run typecheck\` and \`npm run build\` before opening a pull request.
+2. Install dependencies with `npm install`.
+3. Run `npm run dev` while developing.
+4. Run `npm run typecheck` and `npm run build` before opening a pull request.
 5. Describe the user problem, the change, and how it was tested.
 
 ## Product guardrails
