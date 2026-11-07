@@ -2,7 +2,7 @@
 
 ## Current security status
 
-Digital Legacy Registry v0.1.0 is a static prototype. It is **not suitable for real personal or client records**. Data is stored as readable JSON in browser \`localStorage\`; it is not encrypted, authenticated, backed up, or synchronized. JSON exports are also unencrypted. The professional workflow screen is fictional and read-only.
+Digital Legacy Registry v0.1.0 is a static prototype. It is **not suitable for real personal or client records**. Data is stored as readable JSON in browser `localStorage`; it is not encrypted, authenticated, backed up, or synchronized. JSON exports are also unencrypted. The professional workflow screen is fictional and read-only.
 
 Do not submit real sensitive information to this prototype. Do not use it to make legal, estate, incapacity, or post-death decisions.
 
