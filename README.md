@@ -28,34 +28,34 @@ This prototype does **not**:
 - Encrypt browser records, synchronize across devices, or provide a backend account.
 - Automatically delete, memorialize, preserve, or transfer anything on another service.
 
-Records are saved to the current browser's \`localStorage\` in readable form. Clearing browser data removes those records. JSON exports are also unencrypted. The professional page is a design preview only and must not be used with client data.
+Records are saved to the current browser's `localStorage` in readable form. Clearing browser data removes those records. JSON exports are also unencrypted. The professional page is a design preview only and must not be used with client data.
 
 ## Run locally
 
 Requirements: Node.js 20.19+ or 22.12+ and npm.
 
-\`\`\`bash
+```bash
 npm install
 npm run dev
-\`\`\`
+```
 
 Open the local URL printed by Vite.
 
 Create a production build:
 
-\`\`\`bash
+```bash
 npm run typecheck
 npm run build
 npm run preview
-\`\`\`
+```
 
 ## Deploy free with GitHub Pages
 
-This repository includes \`.github/workflows/deploy.yml\`.
+This repository includes `.github/workflows/deploy.yml`.
 
-1. Push the project to GitHub using the \`main\` branch.
+1. Push the project to GitHub using the `main` branch.
 2. In **Settings → Pages**, set the source to **GitHub Actions**.
-3. Push to \`main\` or run the **Deploy to GitHub Pages** workflow manually.
+3. Push to `main` or run the **Deploy to GitHub Pages** workflow manually.
 4. After the workflow succeeds, GitHub will show the published site URL in Pages settings and the workflow deployment.
 
 The Vite build uses relative asset paths so it can run from a repository subpath.
@@ -63,9 +63,9 @@ The Vite build uses relative asset paths so it can run from a repository subpath
 ## Data model
 
 The browser record contains:
-- \`accounts[]\`: platform, username, URL, preferred action, lifecycle state, and optional notes.
-- \`contacts[]\`: name, email, relationship, and an intended sharing scope.
-- \`preferences\`: planning-level directives selected by the user.
+- `accounts[]`: platform, username, URL, preferred action, lifecycle state, and optional notes.
+- `contacts[]`: name, email, relationship, and an intended sharing scope.
+- `preferences`: planning-level directives selected by the user.
 
 No remote API or database is configured in this release.
 
