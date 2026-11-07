@@ -78,13 +78,9 @@ No remote API or database is configured in this release.
 5. **Platform authority is respected:** account actions and username availability remain subject to each provider's official process and policies.
 6. **Privacy is not a luxury:** basic export and deletion controls should not be paywalled.
 
-## Roadmap
+## Security
 
-See [ROADMAP.md](ROADMAP.md).
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) and read [SECURITY.md](SECURITY.md) before reporting a vulnerability.
+Read [SECURITY.md](SECURITY.md) before using or contributing to the prototype.
 
 ## License
 
