@@ -4,7 +4,7 @@
 
 Digital Legacy Registry is an open-source prototype for documenting online accounts, recording personal legacy preferences, and identifying trusted contacts. It treats a username and a human identity as different things: a platform may eventually release a handle under its own policies, but a person's identity, history, and account ID must never be transferred to a new owner.
 
-> **Prototype warning:** This is a front-end demonstration, not a secure digital vault or a service for real estate, incapacity, or post-death administration. Use fictional data only. Do not enter passwords, recovery codes, identity documents, financial information, private messages, or real sensitive personal information.
+> **Prototype warning:** This is a front-end demonstration, not a secure digital vault or a service for estate, incapacity, or post-death administration. Use fictional data only. Do not enter passwords, recovery codes, identity documents, financial information, private messages, or real sensitive personal information.
 
 ## What works in v0.1.0
 
